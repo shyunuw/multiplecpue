@@ -9,7 +9,7 @@ cppflucdnconindv2 <- '
  //The SH model has annual population sizes continue to increase. 
  //Fix N0 and K; //Otherwise the numerical optimization fails;  
  //Under the same conditions (with the constant N0 and K), we must compare the models
- //As of 18 Feb 2025
+ //As of 19 Sep 2025
  
  #include <TMB.hpp> 
 
