@@ -5,7 +5,8 @@ library(TMB);
 
 #cpp 
 cppflucdnconindv2 <- '
- //Fluctuation instead of the simple model in the paper written by Schnute and Hilborn (1993, CJFAS);
+ //Fluctuation instead of the model in Schnute and Hilborn (1993, CJFAS);
+ //The SH model has annual population sizes continue to increase. 
  //Fix N0 and K; //Otherwise the numerical optimization fails;  
  //Under the same conditions (with the constant N0 and K), we must compare the models
  //As of 18 Feb 2025
